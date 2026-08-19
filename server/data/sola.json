@@ -1,0 +1,573 @@
+{
+  "users": [
+    {
+      "_id": "333333333333333333333331",
+      "email": "demo.admin@sola.local",
+      "passwordHash": "$2a$12$4JjiVorYIidxVOTLr6Sv4u0LmqoDz3e5DuXfEC4PSIt98gMehG/zW",
+      "firstName": "Solange",
+      "lastName": "Mugabo",
+      "role": "SUPER_ADMIN",
+      "status": "ACTIVE",
+      "createdAt": "2026-04-19T14:53:09.566Z",
+      "updatedAt": "2026-08-17T14:53:09.560Z",
+      "lastLoginAt": "2026-08-17T17:13:23.828Z"
+    },
+    {
+      "_id": "333333333333333333333332",
+      "email": "demo.schooladmin@sola.local",
+      "passwordHash": "$2a$12$4JjiVorYIidxVOTLr6Sv4u0LmqoDz3e5DuXfEC4PSIt98gMehG/zW",
+      "firstName": "Grace",
+      "lastName": "Uwera",
+      "role": "SCHOOL_ADMIN",
+      "schoolId": "111111111111111111111111",
+      "status": "ACTIVE",
+      "createdAt": "2026-05-19T14:53:09.566Z",
+      "updatedAt": "2026-08-17T14:53:09.560Z",
+      "lastLoginAt": "2026-08-17T17:17:45.355Z"
+    },
+    {
+      "_id": "333333333333333333333333",
+      "email": "demo.coordinator@sola.local",
+      "passwordHash": "$2a$12$4JjiVorYIidxVOTLr6Sv4u0LmqoDz3e5DuXfEC4PSIt98gMehG/zW",
+      "firstName": "Eric",
+      "lastName": "Niyonzima",
+      "role": "SCHOOL_COORDINATOR",
+      "schoolId": "111111111111111111111111",
+      "status": "ACTIVE",
+      "createdAt": "2026-05-29T14:53:09.566Z",
+      "updatedAt": "2026-08-17T14:53:09.560Z",
+      "lastLoginAt": "2026-08-17T19:57:34.660Z"
+    },
+    {
+      "_id": "333333333333333333333334",
+      "email": "demo.teacher@sola.local",
+      "passwordHash": "$2a$12$4JjiVorYIidxVOTLr6Sv4u0LmqoDz3e5DuXfEC4PSIt98gMehG/zW",
+      "firstName": "Jean",
+      "lastName": "Habimana",
+      "role": "TEACHER",
+      "schoolId": "111111111111111111111111",
+      "departmentId": "222222222222222222222221",
+      "status": "ACTIVE",
+      "createdAt": "2026-06-08T14:53:09.566Z",
+      "updatedAt": "2026-08-17T14:53:09.560Z",
+      "lastLoginAt": "2026-08-17T19:58:43.700Z"
+    },
+    {
+      "_id": "333333333333333333333335",
+      "email": "demo.student@sola.local",
+      "passwordHash": "$2a$12$4JjiVorYIidxVOTLr6Sv4u0LmqoDz3e5DuXfEC4PSIt98gMehG/zW",
+      "firstName": "Aline",
+      "lastName": "Mukamana",
+      "role": "STUDENT",
+      "schoolId": "111111111111111111111111",
+      "departmentId": "222222222222222222222221",
+      "status": "ACTIVE",
+      "createdAt": "2026-06-18T14:53:09.566Z",
+      "updatedAt": "2026-08-17T14:53:09.560Z",
+      "lastLoginAt": "2026-08-17T17:13:20.411Z"
+    },
+    {
+      "_id": "333333333333333333333336",
+      "email": "demo.seeker@sola.local",
+      "passwordHash": "$2a$12$4JjiVorYIidxVOTLr6Sv4u0LmqoDz3e5DuXfEC4PSIt98gMehG/zW",
+      "firstName": "Patrick",
+      "lastName": "Bizimana",
+      "role": "SERVICE_SEEKER",
+      "status": "ACTIVE",
+      "createdAt": "2026-07-08T14:53:09.566Z",
+      "updatedAt": "2026-08-17T14:53:09.560Z",
+      "lastLoginAt": "2026-08-17T19:50:31.184Z"
+    },
+    {
+      "_id": "333333333333333333333337",
+      "email": "demo.student2@sola.local",
+      "passwordHash": "$2a$12$4JjiVorYIidxVOTLr6Sv4u0LmqoDz3e5DuXfEC4PSIt98gMehG/zW",
+      "firstName": "Divine",
+      "lastName": "Iradukunda",
+      "role": "STUDENT",
+      "schoolId": "111111111111111111111111",
+      "departmentId": "222222222222222222222221",
+      "status": "ACTIVE",
+      "createdAt": "2026-06-28T15:34:09.647Z",
+      "updatedAt": "2026-08-17T15:34:09.645Z"
+    },
+    {
+      "_id": "333333333333333333333338",
+      "email": "demo.student3@sola.local",
+      "passwordHash": "$2a$12$4JjiVorYIidxVOTLr6Sv4u0LmqoDz3e5DuXfEC4PSIt98gMehG/zW",
+      "firstName": "Kevin",
+      "lastName": "Mugisha",
+      "role": "STUDENT",
+      "schoolId": "111111111111111111111111",
+      "departmentId": "222222222222222222222221",
+      "status": "ACTIVE",
+      "createdAt": "2026-06-28T15:34:09.647Z",
+      "updatedAt": "2026-08-17T15:34:09.645Z"
+    },
+    {
+      "email": "claudine.tumba@example.com",
+      "passwordHash": "$2a$12$2YLb2sTZVhemkpkWnbTJhuMUxiRcdVYCsMcYzvf/CM5TRwzsQcj7C",
+      "firstName": "Claudine",
+      "lastName": "Mukamana",
+      "role": "SCHOOL_ADMIN",
+      "schoolId": "26d3f4eff9d5056ca2fee682",
+      "status": "INVITED",
+      "_id": "9c2c1e048391e7e9626ba688",
+      "createdAt": "2026-08-17T17:02:24.921Z",
+      "updatedAt": "2026-08-17T17:02:24.921Z"
+    }
+  ],
+  "schools": [
+    {
+      "_id": "111111111111111111111111",
+      "name": "IPRC Kigali",
+      "location": "Kigali, Rwanda",
+      "contactEmail": "demo.school@sola.local",
+      "contactPhone": "+250 788 000 000",
+      "status": "ACTIVE",
+      "createdAt": "2026-04-19T14:53:09.566Z",
+      "updatedAt": "2026-08-17T14:53:09.560Z"
+    },
+    {
+      "name": "IPRC Tumba",
+      "location": "Ruhango",
+      "contactEmail": "partnerships@tumba.rw",
+      "status": "ACTIVE",
+      "_id": "26d3f4eff9d5056ca2fee682",
+      "createdAt": "2026-08-17T17:02:23.896Z",
+      "updatedAt": "2026-08-17T17:02:23.896Z"
+    }
+  ],
+  "departments": [
+    {
+      "_id": "222222222222222222222221",
+      "schoolId": "111111111111111111111111",
+      "name": "ICT",
+      "description": "Software, web, networking and automation",
+      "skills": [
+        "SOFTWARE",
+        "WEB_DEVELOPMENT",
+        "MOBILE_DEVELOPMENT",
+        "NETWORKING"
+      ],
+      "isActive": true,
+      "createdAt": "2026-05-09T14:53:09.566Z",
+      "updatedAt": "2026-08-17T14:53:09.560Z"
+    },
+    {
+      "_id": "222222222222222222222222",
+      "schoolId": "111111111111111111111111",
+      "name": "Electrical",
+      "description": "Electrical installation and electronics",
+      "skills": [
+        "ELECTRICAL",
+        "ELECTRONICS"
+      ],
+      "isActive": true,
+      "createdAt": "2026-05-09T14:53:09.566Z",
+      "updatedAt": "2026-08-17T14:53:09.560Z"
+    },
+    {
+      "_id": "222222222222222222222223",
+      "schoolId": "111111111111111111111111",
+      "name": "Mechanical",
+      "description": "Mechanical maintenance and manufacturing",
+      "skills": [
+        "MECHANICAL",
+        "MANUFACTURING"
+      ],
+      "isActive": true,
+      "createdAt": "2026-05-09T14:53:09.566Z",
+      "updatedAt": "2026-08-17T14:53:09.560Z"
+    }
+  ],
+  "invitations": [
+    {
+      "schoolId": "26d3f4eff9d5056ca2fee682",
+      "userId": "9c2c1e048391e7e9626ba688",
+      "email": "claudine.tumba@example.com",
+      "role": "SCHOOL_ADMIN",
+      "tokenHash": "962a82ba7d22a94822d14ba586c0cf7bd5e719b5c466c5c0debc677cac8c831b",
+      "invitedBy": "333333333333333333333331",
+      "status": "PENDING",
+      "expiresAt": "2026-08-24T17:02:24.925Z",
+      "_id": "973d8620364165e40b3bbdac",
+      "createdAt": "2026-08-17T17:02:24.925Z",
+      "updatedAt": "2026-08-17T17:02:24.925Z"
+    }
+  ],
+  "audits": [
+    {
+      "actorId": "333333333333333333333332",
+      "action": "service_request.status_changed",
+      "entityType": "ServiceRequest",
+      "entityId": "444444444444444444444405",
+      "schoolId": "111111111111111111111111",
+      "metadata": "[object Object]",
+      "_id": "85103e171df90184a0188705",
+      "createdAt": "2026-08-17T16:57:05.636Z",
+      "updatedAt": "2026-08-17T16:57:05.636Z"
+    },
+    {
+      "actorId": "333333333333333333333332",
+      "action": "service_request.status_changed",
+      "entityType": "ServiceRequest",
+      "entityId": "444444444444444444444405",
+      "schoolId": "111111111111111111111111",
+      "metadata": "[object Object]",
+      "_id": "b8a4ee99d32b63c518e5954a",
+      "createdAt": "2026-08-17T16:57:05.644Z",
+      "updatedAt": "2026-08-17T16:57:05.644Z"
+    },
+    {
+      "actorId": "333333333333333333333332",
+      "action": "service_request.status_changed",
+      "entityType": "ServiceRequest",
+      "entityId": "444444444444444444444405",
+      "schoolId": "111111111111111111111111",
+      "metadata": "[object Object]",
+      "_id": "e42bffbc83d5051ee087b44d",
+      "createdAt": "2026-08-17T16:57:09.234Z",
+      "updatedAt": "2026-08-17T16:57:09.234Z"
+    },
+    {
+      "actorId": "333333333333333333333332",
+      "action": "service_request.assigned",
+      "entityType": "ServiceRequest",
+      "entityId": "444444444444444444444405",
+      "schoolId": "111111111111111111111111",
+      "metadata": "[object Object]",
+      "_id": "3a1ce3cfa32a50064fb592b3",
+      "createdAt": "2026-08-17T16:57:09.239Z",
+      "updatedAt": "2026-08-17T16:57:09.239Z"
+    },
+    {
+      "actorId": "333333333333333333333331",
+      "action": "user.invited",
+      "entityType": "User",
+      "entityId": "9c2c1e048391e7e9626ba688",
+      "schoolId": "26d3f4eff9d5056ca2fee682",
+      "metadata": "[object Object]",
+      "_id": "609c1d98bbd8db28a91eeda6",
+      "createdAt": "2026-08-17T17:02:24.929Z",
+      "updatedAt": "2026-08-17T17:02:24.929Z"
+    },
+    {
+      "actorId": "333333333333333333333331",
+      "action": "school.created",
+      "entityType": "School",
+      "entityId": "26d3f4eff9d5056ca2fee682",
+      "schoolId": "26d3f4eff9d5056ca2fee682",
+      "_id": "bbdd1271d79867f3caa626da",
+      "createdAt": "2026-08-17T17:02:24.933Z",
+      "updatedAt": "2026-08-17T17:02:24.933Z"
+    },
+    {
+      "actorId": "333333333333333333333331",
+      "action": "partnership.approved",
+      "entityType": "PartnershipApplication",
+      "entityId": "555555555555555555555551",
+      "schoolId": "26d3f4eff9d5056ca2fee682",
+      "_id": "1ed8c561796941b4b26206b8",
+      "createdAt": "2026-08-17T17:02:24.940Z",
+      "updatedAt": "2026-08-17T17:02:24.940Z"
+    }
+  ],
+  "partnerships": [
+    {
+      "_id": "555555555555555555555551",
+      "schoolName": "IPRC Tumba",
+      "location": "Ruhango",
+      "contactEmail": "partnerships@tumba.rw",
+      "adminFirstName": "Claudine",
+      "adminLastName": "Mukamana",
+      "adminEmail": "claudine.tumba@example.com",
+      "message": "We want community electronics repairs to become student projects.",
+      "status": "APPROVED",
+      "createdAt": "2026-08-15T14:53:09.567Z",
+      "updatedAt": "2026-08-17T14:53:09.560Z",
+      "schoolId": "26d3f4eff9d5056ca2fee682",
+      "reviewedBy": "333333333333333333333331"
+    }
+  ],
+  "serviceRequests": [
+    {
+      "_id": "444444444444444444444401",
+      "seekerId": "333333333333333333333336",
+      "schoolId": "111111111111111111111111",
+      "departmentId": "222222222222222222222221",
+      "organization": "Kigali Hardware Shop",
+      "location": "Kigali",
+      "problem": "Stock is counted by hand every evening and items go missing.",
+      "outcome": "A simple stock in/out register for shop attendants.",
+      "whoIsAffected": "Staff and surrounding community",
+      "category": "SOFTWARE",
+      "urgency": "HIGH",
+      "preferredContact": "demo.seeker@sola.local",
+      "status": "IN_PROGRESS",
+      "statusHistory": [
+        {
+          "from": "DRAFT",
+          "to": "IN_PROGRESS",
+          "actorId": "333333333333333333333336",
+          "at": "2026-07-30T14:53:09.567Z"
+        }
+      ],
+      "createdAt": "2026-07-30T14:53:09.567Z",
+      "updatedAt": "2026-08-17T14:53:09.560Z"
+    },
+    {
+      "_id": "444444444444444444444402",
+      "seekerId": "333333333333333333333336",
+      "schoolId": "111111111111111111111111",
+      "departmentId": "222222222222222222222222",
+      "organization": "Nyamirambo Vocational Hub",
+      "location": "Kigali",
+      "problem": "The workshop lights fail during evening practicals.",
+      "outcome": "Stable lighting and a maintenance checklist.",
+      "whoIsAffected": "Staff and surrounding community",
+      "category": "ELECTRICAL",
+      "urgency": "URGENT",
+      "preferredContact": "demo.seeker@sola.local",
+      "status": "TESTING",
+      "statusHistory": [
+        {
+          "from": "DRAFT",
+          "to": "TESTING",
+          "actorId": "333333333333333333333336",
+          "at": "2026-08-05T14:53:09.567Z"
+        }
+      ],
+      "createdAt": "2026-08-05T14:53:09.567Z",
+      "updatedAt": "2026-08-17T14:53:09.560Z"
+    },
+    {
+      "_id": "444444444444444444444403",
+      "seekerId": "333333333333333333333336",
+      "schoolId": "111111111111111111111111",
+      "departmentId": "222222222222222222222221",
+      "organization": "Gasabo Dairy Cooperative",
+      "location": "Kigali",
+      "problem": "Farmers lose milk because cooling is unreliable.",
+      "outcome": "A small cooling monitor with alerts.",
+      "whoIsAffected": "Staff and surrounding community",
+      "category": "ELECTRONICS",
+      "urgency": "HIGH",
+      "preferredContact": "demo.seeker@sola.local",
+      "status": "AWAITING_CLIENT_FEEDBACK",
+      "statusHistory": [
+        {
+          "from": "DRAFT",
+          "to": "AWAITING_CLIENT_FEEDBACK",
+          "actorId": "333333333333333333333336",
+          "at": "2026-08-08T14:53:09.567Z"
+        }
+      ],
+      "createdAt": "2026-08-08T14:53:09.567Z",
+      "updatedAt": "2026-08-17T14:53:09.560Z"
+    },
+    {
+      "_id": "444444444444444444444404",
+      "seekerId": "333333333333333333333336",
+      "schoolId": "111111111111111111111111",
+      "departmentId": "222222222222222222222221",
+      "organization": "Kimisagara Secondary",
+      "location": "Kigali",
+      "problem": "The school gate still uses a paper visitor book.",
+      "outcome": "A visitor log that prints a daily report.",
+      "whoIsAffected": "Staff and surrounding community",
+      "category": "WEB_DEVELOPMENT",
+      "urgency": "NORMAL",
+      "preferredContact": "demo.seeker@sola.local",
+      "status": "COMPLETED",
+      "statusHistory": [
+        {
+          "from": "DRAFT",
+          "to": "COMPLETED",
+          "actorId": "333333333333333333333336",
+          "at": "2026-07-03T14:53:09.567Z"
+        }
+      ],
+      "createdAt": "2026-07-03T14:53:09.567Z",
+      "updatedAt": "2026-08-17T14:53:09.560Z"
+    },
+    {
+      "_id": "444444444444444444444405",
+      "seekerId": "333333333333333333333336",
+      "schoolId": "111111111111111111111111",
+      "departmentId": "222222222222222222222221",
+      "organization": "Rwamagana Agri Park",
+      "location": "Kigali",
+      "problem": "Irrigation valves are opened by guesswork.",
+      "outcome": "A timed valve schedule for two greenhouse bays.",
+      "whoIsAffected": "Staff and surrounding community",
+      "category": "AUTOMATION",
+      "urgency": "NORMAL",
+      "preferredContact": "demo.seeker@sola.local",
+      "status": "ASSIGNED",
+      "statusHistory": [
+        {
+          "from": "DRAFT",
+          "to": "UNDER_REVIEW",
+          "actorId": "333333333333333333333336",
+          "at": "2026-08-14T14:53:09.567Z"
+        },
+        {
+          "from": "UNDER_REVIEW",
+          "to": "ACCEPTED",
+          "actorId": "333333333333333333333332",
+          "at": "2026-08-17T16:57:05.631Z"
+        },
+        {
+          "from": "ACCEPTED",
+          "to": "MATCHING",
+          "actorId": "333333333333333333333332",
+          "at": "2026-08-17T16:57:05.640Z"
+        },
+        {
+          "from": "MATCHING",
+          "to": "ASSIGNED",
+          "actorId": "333333333333333333333332",
+          "at": "2026-08-17T16:57:09.228Z"
+        }
+      ],
+      "createdAt": "2026-08-14T14:53:09.567Z",
+      "updatedAt": "2026-08-17T14:53:09.560Z"
+    },
+    {
+      "_id": "444444444444444444444406",
+      "seekerId": "333333333333333333333336",
+      "schoolId": "111111111111111111111111",
+      "departmentId": "222222222222222222222221",
+      "organization": "Gisozi Parents Association",
+      "location": "Kigali",
+      "problem": "Parents cannot see fee balances without visiting the office.",
+      "outcome": "A simple balance SMS for the accountant.",
+      "whoIsAffected": "Staff and surrounding community",
+      "category": "SOFTWARE",
+      "urgency": "LOW",
+      "preferredContact": "demo.seeker@sola.local",
+      "status": "SUBMITTED",
+      "statusHistory": [
+        {
+          "from": "DRAFT",
+          "to": "SUBMITTED",
+          "actorId": "333333333333333333333336",
+          "at": "2026-08-16T14:53:09.567Z"
+        }
+      ],
+      "createdAt": "2026-08-16T14:53:09.567Z",
+      "updatedAt": "2026-08-17T14:53:09.560Z"
+    },
+    {
+      "_id": "444444444444444444444407",
+      "seekerId": "333333333333333333333336",
+      "schoolId": "111111111111111111111111",
+      "departmentId": "222222222222222222222221",
+      "organization": "Kicukiro Metal Works",
+      "location": "Kigali",
+      "problem": "Welding bay ventilation is weak and smoke stays in the room.",
+      "outcome": "Improved extraction and a safety poster set.",
+      "whoIsAffected": "Staff and surrounding community",
+      "category": "MECHANICAL",
+      "urgency": "HIGH",
+      "preferredContact": "demo.seeker@sola.local",
+      "status": "ASSIGNED",
+      "statusHistory": [
+        {
+          "from": "DRAFT",
+          "to": "ASSIGNED",
+          "actorId": "333333333333333333333336",
+          "at": "2026-08-11T14:53:09.567Z"
+        }
+      ],
+      "createdAt": "2026-08-11T14:53:09.567Z",
+      "updatedAt": "2026-08-17T14:53:09.560Z"
+    },
+    {
+      "_id": "444444444444444444444408",
+      "seekerId": "333333333333333333333336",
+      "schoolId": "111111111111111111111111",
+      "departmentId": "222222222222222222222221",
+      "organization": "Huye Boarding House",
+      "location": "Kigali",
+      "problem": "Solar lamps in the dormitory die after two hours.",
+      "outcome": "Battery check process and replacement plan.",
+      "whoIsAffected": "Staff and surrounding community",
+      "category": "ENERGY",
+      "urgency": "NORMAL",
+      "preferredContact": "demo.seeker@sola.local",
+      "status": "DELIVERED",
+      "statusHistory": [
+        {
+          "from": "DRAFT",
+          "to": "DELIVERED",
+          "actorId": "333333333333333333333336",
+          "at": "2026-07-20T14:53:09.567Z"
+        }
+      ],
+      "createdAt": "2026-07-20T14:53:09.567Z",
+      "updatedAt": "2026-08-17T14:53:09.560Z"
+    }
+  ],
+  "projects": [
+    {
+      "_id": "666666666666666666666601",
+      "requestId": "444444444444444444444404",
+      "schoolId": "111111111111111111111111",
+      "departmentId": "222222222222222222222221",
+      "teacherId": "333333333333333333333334",
+      "title": "Visitor log for Kimisagara Secondary",
+      "stage": "COMPLETED",
+      "team": [
+        {
+          "userId": "333333333333333333333335",
+          "name": "Aline Mukamana",
+          "teamRole": "FRONTEND"
+        },
+        {
+          "userId": "333333333333333333333337",
+          "name": "Divine Iradukunda",
+          "teamRole": "BACKEND"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "777777777777777777777701",
+          "title": "Talk to the gate staff",
+          "status": "DONE",
+          "milestone": "INVESTIGATE"
+        },
+        {
+          "id": "777777777777777777777702",
+          "title": "Build the daily printout",
+          "status": "DONE",
+          "milestone": "BUILD"
+        }
+      ],
+      "evidence": [
+        {
+          "note": "Printed visitor sheet used at the gate for one week.",
+          "at": "2026-07-28T15:34:09.647Z"
+        }
+      ],
+      "feedback": [
+        {
+          "comment": "The printout is what we needed. Staff no longer lose the paper book.",
+          "works": "Daily report",
+          "needsChange": "",
+          "at": "2026-07-26T15:34:09.647Z"
+        }
+      ],
+      "impact": {
+        "before": "Visitors were written in a paper book. The office could not produce a daily list.",
+        "after": "A visitor log prints a daily report for the office.",
+        "timeSaved": "About 40 minutes per day at the gate",
+        "peopleHelped": "Gate staff and school office",
+        "satisfaction": "School office accepted the delivery"
+      },
+      "createdAt": "2026-07-08T15:34:09.647Z",
+      "updatedAt": "2026-08-17T15:34:09.645Z"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+export const ROLES = {
+  SUPER_ADMIN: "SUPER_ADMIN",
+  SCHOOL_ADMIN: "SCHOOL_ADMIN",
+  SCHOOL_COORDINATOR: "SCHOOL_COORDINATOR",
+  TEACHER: "TEACHER",
+  STUDENT: "STUDENT",
+  SERVICE_SEEKER: "SERVICE_SEEKER"
+} as const;
+
+export type Role = (typeof ROLES)[keyof typeof ROLES];
+
+export const SCHOOL_SCOPED_ROLES: Role[] = [
+  ROLES.SCHOOL_ADMIN,
+  ROLES.SCHOOL_COORDINATOR,
+  ROLES.TEACHER,
+  ROLES.STUDENT
+];
+
+export const USER_STATUSES = {
+  ACTIVE: "ACTIVE",
+  INVITED: "INVITED",
+  DISABLED: "DISABLED"
+} as const;
+
+export type UserStatus = (typeof USER_STATUSES)[keyof typeof USER_STATUSES];

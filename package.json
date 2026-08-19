@@ -1,0 +1,17 @@
+{
+  "name": "sola",
+  "private": true,
+  "description": "SOLA — Solutions-Oriented Learning & Action",
+  "workspaces": ["server", "client"],
+  "scripts": {
+    "predev": "node scripts/ensure-install.cjs",
+    "dev": "concurrently -n api,web -c teal,cyan \"npm run dev -w sola-server\" \"npm run dev -w sola-client\"",
+    "dev:server": "npm run dev -w sola-server",
+    "dev:client": "npm run dev -w sola-client",
+    "seed": "npm run seed -w sola-server",
+    "test": "npm test -w sola-server && npm test -w sola-client"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
